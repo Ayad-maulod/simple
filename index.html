@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY4tam8UPNhIERWFBZ2y7zQ0x25H7onyw&libraries=places&callback=initMap" async defer></script>
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+</head>
+
+
+
+
+<!-- structure -->
+<body>
+    
+    <center>
+        <!-- <h1>بەخێربێن بۆ دۆزەرەوە </h1> -->
+        <br>
+<h4>find the nearest hospital here</h4>        
+<div id="map"></div>
+        <br>
+        <button id="createRoadLineButton">create line</button>
+        
+<hr>
+        <h4>selected place</h4>
+        <h2 id="selectedPlace"></h2>
+
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            width: 100%;
+            height: 500px; /* Adjust height as needed */
+        }
+        
+        #createRoadLineButton {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #selectedPlace {
+            text-align: center;
+        }
+        
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 300px) {
+            #map {
+                width: 95%;
+                height: 800px; /* Adjust height for smaller screens */
+            }
+        }
+    </style>
+
+
+
+
+<script  src="test.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!-- programming -->
+
+
+
